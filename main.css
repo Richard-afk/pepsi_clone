@@ -723,6 +723,7 @@ footer_links a{
     .twil-flex {
         flex-direction: column-reverse;
         position: absolute;
+        width: 90%;
         gap: 2rem;
         bottom:0;
     }
@@ -730,19 +731,41 @@ footer_links a{
 
 
     .twil-flex-child1, .twil-flex-child2 {
-        width: 30vh;
+        width: 100%;
+    }
+
+    .twil-flex-child2 img {
+        width: 100%;
+    }
+    .twil-flex-child1 img {
+        width: 100%;
+    }
+    .social-item-container{
+        display: none;
+    }
+    footer {
+        height:auto;
+    }
+
+    .footer_container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer_logo img{
+        width: 3.2rem
+    }
+
+    .footer_links{
+        column-count: 1;
     }
     .hero{
         display: none;
     }
     .nav_mobile{
         display:flex;
-    }
+    } 
     .hamburger{
         display: flex;
-    }
-
-    footer{
-        display: none;
     }
 }
