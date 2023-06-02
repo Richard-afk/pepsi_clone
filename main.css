@@ -127,7 +127,7 @@ body {
 }
 
 .hamburger {
-    display: flex;
+    display: none;
     top: 4.25rem;
     width: 100%;
     height: calc(100vh - 4.25rem);
@@ -149,6 +149,7 @@ body {
 
 .active{
     opacity: 100%;
+    display:flex;
     transition: .2s
 }
 
@@ -219,7 +220,7 @@ body {
 }
 
 .promoImg{
-    width: 55vw !important;
+    width: 55vw;
     display: flex;
     height: 100%;
     overflow: visible;
@@ -335,6 +336,9 @@ z-index :0;
     background-image: url(assets/Desktop_Background.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.pepsi-mango-mobile{
+    display: none;
 }
 
 .pepsi-mango-container{
@@ -618,11 +622,149 @@ footer_links a{
         display: none;
     }
 
-    .nav_mobile{
-        display:flex;
+    .pepsi_0_sugar{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content:end;
+        flex-wrap: nowrap;
+    }
+    .promoImg{
+        width:100%;
+        height: 60%;
     }
 
-    footer{
+    .promoContainer{
+        width: 100%;
+        background-size: auto 138vw;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        height: 94.641vw;
+    }
+
+    .promoText{
+        height: 50%;
+        width: 80%;
+        position: relative;
+
+    }
+
+    .promoText img{
+        width: 81vw;
+        position: absolute;
+        top: unset;
+        right:unset;
+        bottom: 10%;  
+    }
+    
+    .pepsiNitro_container{
+        height: 78vh
+    }
+
+    .pepsiNitro_container{
+        background-size: cover;
+    }
+
+    .pepsiNitro_flex{
+        flex-direction: column-reverse;
+        justify-content: end;
+    }
+    
+
+    .pepsiNitro_flex_child:first-child img {
+        width: 78vw;
+    }
+
+    .pepsiNitro_flex_child:last-child img{
+        width: 48vw;
+    }
+
+    .pepsiNitro_flex_child h2 {
+        font-size: 1rem;
+    }
+    .better-with-pepsi {
+        background-repeat: no-repeat;
+        background-position: 70% 10%;
+        min-height: 47vh;
+    }
+
+    .pepsi-mango{
         display: none;
     }
+    .pepsi-mango-mobile{
+        display: block;
+        height:203vw;
+        position: relative;
+        background-image: url(assets/mango-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .pepsi-mango-container{
+        padding: 1rem;
+    }
+
+    .headline{
+        width: 58%;
+        left: 5vw;
+    }
+
+    .social-title {
+        font-size: 2rem;
+    }
+
+    .pepsi-twil{
+        height: 151vw;
+    }
+    .twilcontainer{
+        position: relative;
+        display:flex;
+        justify-content: center;
+    }
+
+    .twil-flex {
+        flex-direction: column-reverse;
+        position: absolute;
+        width: 90%;
+        gap: 2rem;
+        bottom:0;
+    }
+
+
+
+    .twil-flex-child1, .twil-flex-child2 {
+        width: 100%;
+    }
+
+    .twil-flex-child2 img {
+        width: 100%;
+    }
+    .twil-flex-child1 img {
+        width: 100%;
+    }
+    .social-item-container{
+        display: none;
+    }
+    footer {
+        height:auto;
+    }
+
+    .footer_container{
+        flex-direction: column;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .footer_logo img{
+        width: 3.2rem
+    }
+
+    .footer_links{
+        column-count: 1;
+    }
+    .hero{
+        display: none;
+    }
+    .nav_mobile{
+        display:flex;
+    } 
 }

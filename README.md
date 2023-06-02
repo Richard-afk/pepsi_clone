@@ -1,0 +1,1 @@
+if you found yourself here, it means the universe wants us to be friends. But thats by the way. This site is just a simple project while im on my learning journey. Its cureently hosted at https://richard-afk.github.io/pepsi_clone/
