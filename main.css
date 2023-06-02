@@ -149,6 +149,7 @@ body {
 
 .active{
     opacity: 100%;
+    display:flex;
     transition: .2s
 }
 
@@ -750,6 +751,7 @@ footer_links a{
     .footer_container{
         flex-direction: column;
         text-align: center;
+        gap: 2rem;
     }
 
     .footer_logo img{
@@ -765,7 +767,4 @@ footer_links a{
     .nav_mobile{
         display:flex;
     } 
-    .hamburger{
-        display: flex;
-    }
 }
