@@ -635,7 +635,7 @@ footer_links a{
 
     .promoContainer{
         width: 100%;
-        background-size: auto 138vw;
+        background-size: auto 125vw;
         background-repeat: no-repeat;
         background-position: bottom;
         height: 94.641vw;
@@ -643,7 +643,7 @@ footer_links a{
 
     .promoText{
         height: 50%;
-        width: 80%;
+        width: 78%;
         position: relative;
 
     }
@@ -657,7 +657,7 @@ footer_links a{
     }
     
     .pepsiNitro_container{
-        height: 78vh
+        height: 85vh
     }
 
     .pepsiNitro_container{
@@ -692,7 +692,7 @@ footer_links a{
     }
     .pepsi-mango-mobile{
         display: block;
-        height:203vw;
+        height:178vw;
         position: relative;
         background-image: url(assets/mango-bg.jpg);
         background-repeat: no-repeat;
