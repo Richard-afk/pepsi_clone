@@ -127,14 +127,14 @@ body {
 }
 
 .hamburger {
-    display: none;
+    display: flex;
     top: 4.25rem;
     width: 100%;
-    height: calc(100vh - 4.25rem);
+    height: 0;
     background: #0065c3;
     position: fixed;
     z-index: 999;
-    opacity: 0%;
+    overflow: hidden;
     transition: .3s ease-in;
 }
 
@@ -149,7 +149,7 @@ body {
 
 .active{
     opacity: 100%;
-    display:flex;
+    height: calc(100vh - 4.25rem);
     transition: .2s
 }
 
